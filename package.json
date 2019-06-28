@@ -1,8 +1,9 @@
 {
   "name": "rf-cron-parser",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "cron bug fix",
-  "main": "index.d.ts",
+  "main": "lib/parser.js",
+  "types": "lib/index.d.ts",
   "scripts": {
     "test": "tap ./test/*.js"
   },
@@ -26,5 +27,13 @@
   "bugs": {
     "url": "https://github.com/wenshijun88/rf-cron-parser/issues"
   },
-  "homepage": "https://github.com/wenshijun88/rf-cron-parser#readme"
+  "homepage": "https://github.com/wenshijun88/rf-cron-parser#readme",
+  "dependencies": {
+    "is-nan": "^1.2.1",
+    "moment-timezone": "^0.5.25"
+  },
+  "devDependencies": {
+    "sinon": "^7.3.2",
+    "tap": "^14.2.2"
+  }
 }
