@@ -1,5 +1,5 @@
 {
-  "name": "rf-cron-parse",
+  "name": "rf-cron-parser",
   "version": "1.0.0",
   "description": "cron bug fix",
   "main": "index.d.ts",
