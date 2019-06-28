@@ -1,0 +1,30 @@
+{
+  "name": "rf-cron-parse",
+  "version": "1.0.0",
+  "description": "cron bug fix",
+  "main": "index.d.ts",
+  "scripts": {
+    "test": "tap ./test/*.js"
+  },
+  "contributors":[
+    {
+      "name": "wenshijun",
+      "email": "412986507@qq.com"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wenshijun88/rf-cron-parser.git"
+  },
+  "keywords": [
+    "cron",
+    "parser",
+    "frequency"
+  ],
+  "author": "wenshijun",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wenshijun88/rf-cron-parser/issues"
+  },
+  "homepage": "https://github.com/wenshijun88/rf-cron-parser#readme"
+}
